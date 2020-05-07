@@ -39,8 +39,8 @@ public class GameClient {
             out.println(request);
 
             // Wait the response from the server
-            String response = in.readLine ();
-            System.out.println(response);
+            String response = in.readLine();
+            System.out.println(response.replace("*", "\n"));
 
         } catch (UnknownHostException e) {
             e.printStackTrace();

@@ -7,7 +7,6 @@ public class GameServer {
     private ServerSocket serverSocket;
     private boolean running = true;
 
-
     private void init() {
         try {
             serverSocket = new ServerSocket(PORT);
